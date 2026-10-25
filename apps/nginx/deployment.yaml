@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:1.28
+          image: nginxinc/nginx-unprivileged:1.28-alpine
           ports:
             - name: http
               containerPort: 80
